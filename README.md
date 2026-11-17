@@ -78,7 +78,7 @@
   - 기본 테마 여러 개(어두운 테마·밝은 테마)를 고를 수 있습니다.
   - 테마 파일을 직접 만들어 넣을 수 있습니다(색, 장식, 창 밖으로 걸치는 귀·배지 등).
   - 앱 아이콘 색도 테마를 따라갑니다.
-- **화면 설정**: 글꼴, 글자 크기, 창 투명도를 바꿀 수 있습니다. 설정하는 동안 게임 위에 미리보기가 뜹니다.
+- **화면 설정**: 글꼴(기본 Pretendard · 나눔스퀘어 · 메이플스토리), 글자 크기, 창 투명도를 바꿀 수 있습니다. 설정하는 동안 게임 위에 미리보기가 뜹니다.
 - **리그 자동 선택**: 현재 리그를 자동으로 골라 시세를 가져옵니다.
 
 ## 설치
@@ -108,4 +108,7 @@ Windows **설정 → 앱**에서 "PoE 시세 오버레이"를 제거합니다.
 
 - 시세 데이터: [poe.ninja](https://poe.ninja), 카카오 PoE 공식 거래소
 - 옵션 문장 표: [Awakened PoE Trade](https://github.com/SnosMe/awakened-poe-trade) (MIT)
+- 고양이 테마 그림: [Microsoft Fluent Emoji](https://github.com/microsoft/fluentui-emoji) (MIT)
+- 글꼴: [Pretendard](https://github.com/orioncactus/pretendard) (OFL), [네이버 나눔스퀘어](https://hangeul.naver.com/font) (OFL), [넥슨 메이플스토리 서체](https://maplestory.nexon.com/media/font)
+  — 이 프로그램에는 네이버 나눔글꼴과 메이플스토리가 제공한 메이플스토리 서체가 적용되어 있습니다.
 - 라이선스 전문은 설치 폴더의 `LICENSE*.txt` 에 있습니다.
