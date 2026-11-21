@@ -1,5 +1,42 @@
 [
   {
+    "version": "2.3.124",
+    "date": "2026-11-22",
+    "title": "맵 타이머 컴팩트 HUD & 업데이트 알리미 개편",
+    "highlights": [
+      {
+        "badge": "⏱️ 맵 타이머 컴팩트 HUD",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/map_timer.webp",
+        "desc": "가로형 슬림 바 / 세로형 카드를 바로 바꾸고 투명도(30~100%)와 크기(100%/75%)를 고를 수 있습니다.\n`설정 > 화면`이나 타이머 팝오버에서 바꾸고, 상태는 저장돼요."
+      },
+      {
+        "badge": "📊 맵 효율 지표 추가",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/map_timer.webp",
+        "desc": "시간당 맵 회전율, 은신처 체류 비율, 같은 맵·등급의 최고 기록(PB)을 타이머에서 바로 봅니다.\nClient.txt를 읽기만 해서 계산하며 [✕]로 끄고 설정에서 다시 켤 수 있어요."
+      },
+      {
+        "badge": "✨ 업데이트 알리미 리본",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/update_ribbon.webp",
+        "desc": "새 업데이트는 화면 중앙 토스트 대신 시세 창 위에 붙는 리본(`패치노트 보기`)으로 알려줍니다.\n`다시 안 보기`와 `설정 > 정보` 토글을 지원하고, 좁은 창에서도 안 겹쳐요."
+      },
+      {
+        "badge": "🖱️ 마우스 4/5번 단축키",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/settings_display.webp",
+        "desc": "단축키 설정에서 마우스 사이드 버튼(`Mouse4`/`Mouse5`)을 기능에 지정할 수 있습니다.\n창 드래그 반응도 빨라져 아이콘·오버레이 창이 마우스를 바로 따라와요."
+      },
+      {
+        "badge": "🃏 점술 카드 표시 수정",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/currency_card.webp",
+        "desc": "점술 카드 상단에 첫 글자 대신 전체 카드 이름이 나오고, 긴 이름은 자동으로 작게 맞춰집니다.\n알리미 리본이 붙어도 카드 폭이 찌그러지지 않아요."
+      },
+      {
+        "badge": "🔧 삿된·어둠의 국왕 검색 수정",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/price_window_2col.webp",
+        "desc": "삿된 아이템과 `#` 없는 고정 옵션은 수치 없이 있는지만 검색해 매물 0개가 나오던 문제를 고쳤습니다.\n어둠의 국왕 2줄 옵션도 첫 줄로 매칭되고, 관련 아이템이 있는 2열 창은 최소 높이를 확보해요."
+      }
+    ]
+  },
+  {
     "version": "2.3.123",
     "date": "2026-11-21",
     "title": "파우스투스 시세 급변·화폐 검색, 빠른 메모장, 2열 시세 창 업데이트",
