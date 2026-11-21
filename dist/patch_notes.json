@@ -1,0 +1,175 @@
+[
+  {
+    "version": "2.3.123",
+    "date": "2026-11-21",
+    "title": "파우스투스 시세 급변·화폐 검색, 빠른 메모장, 2열 시세 창 업데이트",
+    "highlights": [
+      {
+        "badge": "🔥 파우스투스 시세 급변",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/faustus_spike.webp",
+        "desc": "`Ctrl+Shift+F`로 직전 6시간 대비 급등·하락 품목을 한눈에 봅니다 (Top 10·상승·하락, 24h/7d 추세).\n검색 창 옆에 자석처럼 붙고, `탭 분리`로 따로 옮길 수도 있어요."
+      },
+      {
+        "badge": "🔍 화폐거래소 시세 검색",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/faustus_search.webp",
+        "desc": "`Alt+E`로 화폐·에센스·카드 등을 한글·영문·초성으로 검색하고 거래량·가격·변동순으로 정렬합니다.\n24h/7d 추세 차트와 `★ 즐겨찾기` 고정을 지원해요."
+      },
+      {
+        "badge": "📈 Ctrl+D 동반 시세 카드",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/currency_card.webp",
+        "desc": "화폐·에센스·카드를 `Ctrl+D`로 조회하면 시세 창 옆에 24h 그래프와 같은 분류의 상승/하락 1위가 함께 떠요.\n`다음부터 안 보기`로 끌 수 있습니다."
+      },
+      {
+        "badge": "📝 빠른 메모장",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/quick_memo.webp",
+        "desc": "`Ctrl+Shift+N`으로 자주 쓰는 채팅 명령어·거래 문구·지도 정규식을 저장하고 클릭 한 번에 복사합니다.\n드래그로 순서를 바꾸고, 미니 아이콘으로 항상 띄워둘 수 있어요."
+      },
+      {
+        "badge": "🧩 2열 시세 창 + 매물 더보기",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/price_window_2col.webp",
+        "desc": "기본 시세 창이 옵션 조건 + 매물 목록 2열로 바뀌고, 하단 `1열/2열`로 전환합니다.\n`+ 10개 더 보기`, `카오스만` 필터, 마우스 오른쪽에 뜨는 매물 툴팁을 쓸 수 있어요."
+      },
+      {
+        "badge": "🎯 옵션 검색 도구 강화",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/option_tools.webp",
+        "desc": "`-10%` 토글, `모두 일치 / N개 중 X개+`, 아이템 레벨 MIN/MAX, 빈 접두어·접미어 칩을 추가했습니다.\n`[합산]` 옵션 구분과 `T1`·`T2` 티어 강조도 함께 들어갔어요."
+      },
+      {
+        "badge": "🃏 점술 카드 이중 시세",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/currency_card.webp",
+        "desc": "점술 카드를 3단계 카드형 UI(<1div / 1~9.9div / 10div+)로 교환소·해외 시세를 함께 보여줍니다.\n공식 카드 아트워크와 보상·풀세트 환산가가 표시돼요."
+      },
+      {
+        "badge": "🗺️ 지도 시세·정규식 개선",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/map_window.webp",
+        "desc": "지도 전용 2줄 스탯 카드(아틀라스 획득물·수량·희귀도·무리 규모)와 16.5T 보너스 검색을 지원합니다.\n지도 정규식은 완성형 한글 형식으로 바뀌고 정보·좋음 옵션도 포함돼요."
+      },
+      {
+        "badge": "🛠️ 강탈 도면·계약 검색",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/price_window_2col.webp",
+        "desc": "강탈 도면은 인챈트 `모두/인챈트만/인챈트 아님`과 지역 레벨·부속 건물·보물 창고 조건으로 검색합니다.\n강탈 계약은 요구 직업 레벨이 자동 체크돼요."
+      },
+      {
+        "badge": "💎 부여된·변성 젬 검색",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/gem_window.webp",
+        "desc": "부여된 젬의 보조 효과를 `[부여된]` 배지로 구분해 정확히 검색하고 변성 젬도 바로 조회됩니다.\n분열 옵션은 배지를 눌러 일반 옵션으로 전환해 찾을 수 있어요."
+      },
+      {
+        "badge": "🚨 신고하기·자동 오류 신고",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/settings_report.webp",
+        "desc": "`신고` 버튼으로 익명 또는 닉네임과 함께 버그를 보내고 접수 번호를 받습니다 (설정 > 신고 · 제보 탭).\n비정상 종료 시 다음 실행에서 로그가 담긴 신고 창이 자동으로 열려요."
+      },
+      {
+        "badge": "✨ 고사양 모드·화면 연출",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/settings_display.webp",
+        "desc": "설정 > 화면의 `고사양 모드`로 HUD 모션을 켤 수 있고 (기본 꺼짐), `[다시 검색]` 갱신 피드백이 3가지로 제공됩니다.\n사용자 테마는 폴더째 넣을 수 있고 배경 아트를 2개까지 쓸 수 있어요."
+      },
+      {
+        "badge": "🧰 시작 안내·치트 시트·F6",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/cheat_sheet.webp",
+        "desc": "첫 설치 때 핵심 단축키 안내 카드가 뜨고, 설치 위치를 직접 고를 수 있습니다.\n치트 시트·거래/빠른 채팅 분리, F6 패널의 `실시간 메타 급등 Top 10`도 추가됐어요."
+      },
+      {
+        "badge": "🩹 안정성 수정",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/price_window_2col.webp",
+        "desc": "오버레이 실행 중 Windows 작업 표시줄이 사라지던 문제와 PC 종료 시 비정상 종료 오탐을 고쳤습니다.\n`최솟값 채우기` 설정과 고정 숫자 옵션 오매칭도 바로잡았어요."
+      }
+    ]
+  },
+  {
+    "version": "2.3.109",
+    "date": "2026-11-18",
+    "title": "화폐 창 개편",
+    "highlights": [
+      {
+        "badge": "💱 화폐 창 개편",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/currency_card.webp",
+        "desc": "교환소 시세를 크게, 해외 시세를 아래에 비교해 거래량과 함께 보여줍니다.\n값은 카오스, 디바인은 환산해 표시해요."
+      }
+    ]
+  },
+  {
+    "version": "2.3.106",
+    "date": "2026-11-18",
+    "title": "교환소 시세·매물 호버",
+    "highlights": [
+      {
+        "badge": "📊 교환소 시세 표시",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/price_window_2col.webp",
+        "desc": "화폐·조각은 poe.ninja 옆에 공식 교환소 한 시간 시세를 함께 보여줍니다.\n매물에 마우스를 올리면 이름·옵션·아이템 레벨이 떠요."
+      }
+    ]
+  },
+  {
+    "version": "2.3.105",
+    "date": "2026-11-18",
+    "title": "옵션 수치 입력 개선",
+    "highlights": [
+      {
+        "badge": "🔢 옵션 수치 직접 입력",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/option_tools.webp",
+        "desc": "칸을 눌러 숫자를 직접 입력하고 음수 저항도 MIN으로 검색합니다.\n알트탭 뒤 시세 창 클릭 문제도 고쳤어요."
+      }
+    ]
+  },
+  {
+    "version": "2.3.104",
+    "date": "2026-11-18",
+    "title": "거래 방식 기억·용병 배지",
+    "highlights": [
+      {
+        "badge": "⚡ 즉시 구매 기본",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/price_window_2col.webp",
+        "desc": "검색 기본을 즉시 구매로 하고 `기억` 체크로 마지막 선택을 유지합니다.\n용병 소환장 스킬·보조 스킬은 배지로 구분돼요."
+      }
+    ]
+  },
+  {
+    "version": "2.3.103",
+    "date": "2026-11-18",
+    "title": "고유 지도 검색 수정",
+    "highlights": [
+      {
+        "badge": "🗺️ 고유 지도 검색",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/map_window.webp",
+        "desc": "고유 지도를 이름으로 찾도록 수정했습니다."
+      }
+    ]
+  },
+  {
+    "version": "2.3.102",
+    "date": "2026-11-18",
+    "title": "용병 소환장·바알 젬",
+    "highlights": [
+      {
+        "badge": "⚔️ 용병 소환장 검색",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/gem_window.webp",
+        "desc": "스킬·보조 스킬로 용병 소환장을 검색하고 바알 젬은 전용 조건으로 찾습니다.\n지도 검색 지연도 줄였어요."
+      }
+    ]
+  },
+  {
+    "version": "2.3.101",
+    "date": "2026-11-18",
+    "title": "용병 소환장 빌드별 검색",
+    "highlights": [
+      {
+        "badge": "⚔️ 빌드별 소환장",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/map_window.webp",
+        "desc": "용병 소환장을 빌드별로 검색하고 지도 `몬스터 레벨` 줄을 인식합니다."
+      }
+    ]
+  },
+  {
+    "version": "2.3.100",
+    "date": "2026-11-18",
+    "title": "유형별 검색 규칙표",
+    "highlights": [
+      {
+        "badge": "🧭 검색 규칙 정리",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/price_window_2col.webp",
+        "desc": "아이템 유형별 규칙표와 검색 전 자동 점검을 도입했습니다.\n기본 거래 방식 전체/즉시/귓말을 바로 고를 수 있어요."
+      }
+    ]
+  }
+]
