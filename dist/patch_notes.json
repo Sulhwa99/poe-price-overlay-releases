@@ -1,5 +1,42 @@
 [
   {
+    "version": "2.3.126",
+    "date": "2026-11-22",
+    "title": "하단 메타 필터 확장 & 기본 베이스 검색",
+    "highlights": [
+      {
+        "badge": "💀 타락 4단계 필터",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/meta_filters.webp",
+        "desc": "하단 `타락` 버튼을 눌러 `타락만` → `두번타락` → `타락아님` → `모두`로 바꿔가며 검색합니다.\n`두번타락`은 타락 + 고정 옵션 2개 이상인 매물만 찾아요."
+      },
+      {
+        "badge": "⇄ 분열·복제·식별 필터",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/meta_filters.webp",
+        "desc": "일반 아이템은 `분열`·`복제`(모두/만/아님), 고유 아이템은 `식별`(모두/식별됨/식별 안됨)을 하단에서 고릅니다.\n미확인 고유는 `식별 안됨`이 기본으로 선택돼요."
+      },
+      {
+        "badge": "🎯 기본 베이스 검색",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/meta_filters.webp",
+        "desc": "희귀·마법·일반 장비, 장신구, 주얼, 플라스크는 이제 `베이스: 해당 베이스만`이 기본으로 켜집니다.\n하단 버튼을 눌러 `모든 베이스`로 바꿀 수 있어요."
+      },
+      {
+        "badge": "🔀 분열 옵션 3단계 전환",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/option_tools.webp",
+        "desc": "분열 옵션의 체크박스나 글자를 누르면 `분열` → `일반 옵션` → `체크 해제` 순으로 바뀝니다.\n기존처럼 `분열` 배지를 눌러 바로 전환하는 것도 그대로예요."
+      },
+      {
+        "badge": "📐 2열 시세 창 정렬",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/layout_align.webp",
+        "desc": "오른쪽 매물 목록 머리글이 왼쪽 거래소 가격 카드와 같은 높이에서 시작하고, 좌우 바깥 여백도 똑같이 맞췄습니다."
+      },
+      {
+        "badge": "🔧 기타 수정사항",
+        "image_url": "",
+        "desc": "분열 검색이 거래소에서 거부되던 오류를 고쳤습니다. 메타 필터 버튼은 켜지면 색이 바뀌고, 우클릭으로 거꾸로 순환해요.\n버튼에 마우스를 올리면 단계 목록과 조작법이 툴팁으로 보입니다."
+      }
+    ]
+  },
+  {
     "version": "2.3.125",
     "date": "2026-11-22",
     "title": "맵 타이머 재표시 & 치트시트 개선",
