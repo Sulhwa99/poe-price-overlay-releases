@@ -1,5 +1,32 @@
 [
   {
+    "version": "2.3.129",
+    "date": "2026-11-22",
+    "title": "마석학 가루 예상치 & 바알 젬 검색 수정",
+    "highlights": [
+      {
+        "badge": "✨ 마석학 가루 예상치",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/dust_badge.webp",
+        "desc": "`Ctrl+D` 시세 창의 매물 수 옆에 분해하면 얻는 가루 예상량이 `분해: ~9,526`처럼 표시돼요.\n마우스를 올리면 퀄리티 20% 때 예상량과 타락 강화 불가 안내가 나옵니다."
+      },
+      {
+        "badge": "🖱️ Alt+D 가루 빠른 확인",
+        "image_url": "",
+        "desc": "아이템에 마우스를 올리고 `Alt+D`를 누르면 커서 위에 가루 예상량이 1.8초간 떠요 (클릭은 그대로 통과).\n`설정 > 단축키`에서 마우스 사이드 버튼으로도 바꿀 수 있어요."
+      },
+      {
+        "badge": "💎 바알 스킬 젬 검색 수정",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/gem_window.webp",
+        "desc": "바알 스킬 젬이 검색되지 않던 문제를 고쳤습니다. 이제 해당 바알 젬과 타락 조건으로 정확히 찾아요.\n바알 젬 해외 시세도 이름이 알맞게 연결됩니다."
+      },
+      {
+        "badge": "🎨 맵 타이머 테마 연동",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/map_timer_theme.webp",
+        "desc": "맵 타이머가 초록색 고정이 아니라 지금 쓰는 오버레이 테마의 배경·테두리·강조 색을 따라갑니다.\n일시 숨김 안내 팝업도 테마 색으로 바뀌었어요."
+      }
+    ]
+  },
+  {
     "version": "2.3.128",
     "date": "2026-11-22",
     "title": "F9 단축키 수정 & 시세 창 레이아웃 정리",
@@ -7,7 +34,7 @@
       {
         "badge": "⌨️ F9 단축키 지정 수정",
         "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/settings_display.webp",
-        "desc": "`설정 > 단축키`에서 `F9`를 기능에 지정해도 창고 보정 키에 가로채여 동작하지 않던 문제를 고쳤습니다.\n이제 지정한 단축키가 먼저 실행돼요 (창고 보정은 `설정`에서 안내에 따라 진행)."
+        "desc": "`설정 > 단축키`에서 `F9`를 기능에 지정해도 동작하지 않던 문제를 고쳤습니다.\n이제 `F9`도 다른 키처럼 지정한 기능이 실행돼요."
       },
       {
         "badge": "📂 합산·상세 조건 접기",
@@ -17,12 +44,12 @@
       {
         "badge": "📏 시세 창 높이 고정",
         "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/layout_fold.webp",
-        "desc": "시세 창 높이를 화면의 82%까지로 제한하고 가운데 옵션 목록만 스크롤됩니다.\n`다시 검색` 버튼과 아래 줄이 항상 보여요."
+        "desc": "시세 창이 화면보다 길어지지 않고, 가운데 옵션 목록만 스크롤돼요.\n`다시 검색` 버튼과 아래 줄이 항상 보입니다."
       },
       {
         "badge": "📜 매물 목록 전부 표시",
         "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/layout_fold.webp",
-        "desc": "같은 판매자 매물을 `외 N개`로 묶지 않고 더보기로 불러온 매물을 한 줄씩 모두 보여줍니다.\n`+ 10개 더 보기`는 매물 수에 맞춰 늘어나고, 관련 아이템이 있으면 모두 보이게 맞춰져요."
+        "desc": "같은 판매자 매물을 `외 N개`로 묶지 않고 더보기로 불러온 매물을 한 줄씩 모두 보여줍니다.\n`+ 10개 더 보기`를 누르면 창이 매물 수에 맞춰 늘어나요."
       }
     ]
   },
@@ -115,12 +142,12 @@
       {
         "badge": "📊 맵 효율 지표 추가",
         "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/map_timer.webp",
-        "desc": "시간당 맵 회전율, 은신처 체류 비율, 같은 맵·등급의 최고 기록(PB)을 타이머에서 바로 봅니다.\nClient.txt를 읽기만 해서 계산하며 [✕]로 끄고 설정에서 다시 켤 수 있어요."
+        "desc": "시간당 맵 회전율, 은신처 체류 비율, 같은 맵·등급의 최고 기록을 타이머에서 바로 봅니다.\n[✕]로 끄고 설정에서 다시 켤 수 있어요."
       },
       {
         "badge": "🖱️ 마우스 4/5번 단축키",
         "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/settings_display.webp",
-        "desc": "단축키 설정에서 마우스 사이드 버튼(`Mouse4`/`Mouse5`)을 기능에 지정할 수 있습니다.\n창 드래그 반응도 빨라져 아이콘·오버레이 창이 마우스를 바로 따라와요."
+        "desc": "단축키 설정에서 마우스 4·5번 사이드 버튼을 기능에 지정할 수 있습니다.\n창 드래그 반응도 빨라져 아이콘·오버레이 창이 마우스를 바로 따라와요."
       },
       {
         "badge": "🃏 점술 카드 표시 수정",
@@ -130,7 +157,7 @@
       {
         "badge": "🔧 삿된·어둠의 국왕 검색 수정",
         "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/price_window_2col.webp",
-        "desc": "삿된 아이템과 `#` 없는 고정 옵션은 수치 없이 있는지만 검색해 매물 0개가 나오던 문제를 고쳤습니다.\n어둠의 국왕 2줄 옵션도 첫 줄로 매칭되고, 관련 아이템이 있는 2열 창은 최소 높이를 확보해요."
+        "desc": "삿된 아이템과 수치 없는 고정 옵션이 검색 결과 0개로 나오던 문제를 고쳤습니다.\n어둠의 국왕 옵션 검색도 고쳤고, 관련 아이템이 있어도 2열 창이 너무 낮아지지 않아요."
       },
       {
         "badge": "🔧 기타 수정사항",
@@ -177,7 +204,7 @@
       {
         "badge": "🃏 점술 카드 이중 시세",
         "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/currency_card.webp",
-        "desc": "점술 카드를 3단계 카드형 UI(<1div / 1~9.9div / 10div+)로 교환소·해외 시세를 함께 보여줍니다.\n공식 카드 아트워크와 보상·풀세트 환산가가 표시돼요."
+        "desc": "점술 카드를 3단계 카드형 화면(<1div / 1~9.9div / 10div+)으로 교환소·해외 시세와 함께 보여줍니다.\n공식 카드 아트워크와 보상·풀세트 환산가가 표시돼요."
       },
       {
         "badge": "🗺️ 지도 시세·정규식 개선",
@@ -212,7 +239,7 @@
       {
         "badge": "🩹 안정성 수정",
         "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/price_window_2col.webp",
-        "desc": "오버레이 실행 중 Windows 작업 표시줄이 사라지던 문제와 PC 종료 시 비정상 종료 오탐을 고쳤습니다.\n`최솟값 채우기` 설정과 고정 숫자 옵션 오매칭도 바로잡았어요."
+        "desc": "오버레이 실행 중 Windows 작업 표시줄이 사라지던 문제와 PC 종료 시 비정상 종료로 오인되던 문제를 고쳤습니다.\n`최솟값 채우기` 설정과 일부 옵션이 잘못 검색되던 문제도 바로잡았어요."
       }
     ]
   },
@@ -296,7 +323,7 @@
       {
         "badge": "⚔️ 빌드별 소환장",
         "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/map_window.webp",
-        "desc": "용병 소환장을 빌드별로 검색하고 지도 `몬스터 레벨` 줄을 인식합니다."
+        "desc": "용병 소환장을 빌드별로 검색하고, 지도의 몬스터 레벨 정보도 읽어서 검색에 반영합니다."
       }
     ]
   },
@@ -308,7 +335,7 @@
       {
         "badge": "🧭 검색 규칙 정리",
         "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/price_window_2col.webp",
-        "desc": "아이템 유형별 규칙표와 검색 전 자동 점검을 도입했습니다.\n기본 거래 방식 전체/즉시/귓말을 바로 고를 수 있어요."
+        "desc": "아이템 종류에 맞춰 검색 조건을 자동으로 정리하고, 이상한 검색은 미리 걸러냅니다.\n기본 거래 방식 전체/즉시/귓말을 바로 고를 수 있어요."
       }
     ]
   }
