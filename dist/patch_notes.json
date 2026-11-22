@@ -1,5 +1,32 @@
 [
   {
+    "version": "2.3.125",
+    "date": "2026-11-22",
+    "title": "맵 타이머 재표시 & 치트시트 개선",
+    "highlights": [
+      {
+        "badge": "⏱️ 맵 타이머 자동 재표시",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/map_timer.webp",
+        "desc": "`[✕]` 닫기·더블클릭·15분 경과 숨김은 일시 숨김이라 다음 맵에 들어가면 자동으로 다시 떠요.\n영구로 끄려면 `설정 > 화면`에서 끄면 되고, 처음 숨길 때 한 번 안내해 줍니다."
+      },
+      {
+        "badge": "↔️ 가로/세로 전환 버튼 강조",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/map_timer.webp",
+        "desc": "맵 타이머의 `⇄` 전환 버튼이 처음 한 번 누르기 전까지 은은하게 반짝여 위치를 알려줘요.\n한 번 누르면 반짝임이 사라집니다."
+      },
+      {
+        "badge": "📋 치트시트 이미지 등록·정렬",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/cheat_sheet.webp",
+        "desc": "이미지 등록이 안 되던 문제를 고쳤고, 수정 모드에서 드래그나 화살표 버튼으로 노출 순서를 바꿀 수 있어요.\n창을 끌거나 다시 열어도 화면 밖으로 나가지 않게 위치가 자동 보정됩니다."
+      },
+      {
+        "badge": "🔧 기타 수정사항",
+        "image_url": "",
+        "desc": "`Ctrl+D` 검색창 위 패치노트 알림이 버전별로 최대 2번만 자동으로 뜹니다.\n`[✕]`로 닫으면 그 실행 동안은 다시 뜨지 않아요."
+      }
+    ]
+  },
+  {
     "version": "2.3.124",
     "date": "2026-11-22",
     "title": "맵 타이머 컴팩트 HUD & 업데이트 알리미 개편",
