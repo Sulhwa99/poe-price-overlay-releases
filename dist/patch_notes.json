@@ -1,5 +1,32 @@
 [
   {
+    "version": "2.3.128",
+    "date": "2026-11-22",
+    "title": "F9 단축키 수정 & 시세 창 레이아웃 정리",
+    "highlights": [
+      {
+        "badge": "⌨️ F9 단축키 지정 수정",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/settings_display.webp",
+        "desc": "`설정 > 단축키`에서 `F9`를 기능에 지정해도 창고 보정 키에 가로채여 동작하지 않던 문제를 고쳤습니다.\n이제 지정한 단축키가 먼저 실행돼요 (창고 보정은 `설정`에서 안내에 따라 진행)."
+      },
+      {
+        "badge": "📂 합산·상세 조건 접기",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/layout_fold.webp",
+        "desc": "핵심 합산(원소 저항·생명력)과 체크한 항목만 보이고 나머지는 `▸ 합산 옵션 더보기 (N)`로 접혀요.\n퀄리티·홈·연결·방어 수치 같은 조건도 `▸ 상세 조건 (N)`에 모아, 켠 조건만 바깥에 나옵니다."
+      },
+      {
+        "badge": "📏 시세 창 높이 고정",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/layout_fold.webp",
+        "desc": "시세 창 높이를 화면의 82%까지로 제한하고 가운데 옵션 목록만 스크롤됩니다.\n`다시 검색` 버튼과 아래 줄이 항상 보여요."
+      },
+      {
+        "badge": "📜 매물 목록 전부 표시",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/layout_fold.webp",
+        "desc": "같은 판매자 매물을 `외 N개`로 묶지 않고 더보기로 불러온 매물을 한 줄씩 모두 보여줍니다.\n`+ 10개 더 보기`는 매물 수에 맞춰 늘어나고, 관련 아이템이 있으면 모두 보이게 맞춰져요."
+      }
+    ]
+  },
+  {
     "version": "2.3.127",
     "date": "2026-11-22",
     "title": "치트시트 이미지 등록 안정화",
