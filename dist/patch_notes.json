@@ -11,7 +11,7 @@
       },
       {
         "badge": "🖱️ Alt+D 가루 빠른 확인",
-        "image_url": "",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/dust_toast.webp",
         "desc": "아이템에 마우스를 올리고 `Alt+D`를 누르면 커서 위에 가루 예상량이 1.8초간 떠요 (클릭은 그대로 통과).\n`설정 > 단축키`에서 마우스 사이드 버튼으로도 바꿀 수 있어요."
       },
       {
