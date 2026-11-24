@@ -1,5 +1,42 @@
 [
   {
+    "version": "2.3.135",
+    "date": "2026-11-24",
+    "title": "시세창 바로 수정 · 환산 가격 · 상태 배지 설정",
+    "highlights": [
+      {
+        "badge": "✏️ 시세창 맨 위에서 바로 수정",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/header_edit.webp",
+        "desc": "시세창 맨 위의 베이스 이름을 누르면 `원래 베이스`와 `모든 베이스`가 바뀌어요.\n`iLvl [최소][MAX]`는 눌러서 숫자를 입력할 수 있고, 아래 검색 조건과 같은 값이라 같이 바뀝니다."
+      },
+      {
+        "badge": "💱 화폐거래소 검색창(Alt+E) 환산 가격",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/alte_exchange.webp",
+        "desc": "1카오스보다 싼 대량 품목(생기, 파편 등)은 `1c당 N개`로 같이 보여줘요.\n1디바인 이상이거나 100카오스 이상인 비싼 품목은 카오스/디바인 환산 가격을 함께 보여줘요.\n가격이 길어져도 품목명과 겹치지 않고 오른쪽 열이 가지런히 정렬됩니다."
+      },
+      {
+        "badge": "🧭 상태 배지 켜고 끄기",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/settings_badge.webp",
+        "desc": "미니맵 위의 시즌·남은 일수 작은 창을 `설정 > 화면 > 상태 배지 표시`에서 켜고 끌 수 있어요.\n더블클릭으로 끌 때 처음 한 번 다시 켜는 위치를 알려 드려요."
+      },
+      {
+        "badge": "🎴 연대기 관련 아이템에 점술 카드 추가",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/chronicle_related.webp",
+        "desc": "앗조아틀의 연대기 시세창에 앗조아틀의 사원에서만 나오는 점술 카드(지식의 벌집, 탐색자, 역사)가 같이 나와요.\n아이콘이 없는 관련 아이템도 카드 그림이 보입니다."
+      },
+      {
+        "badge": "🎛️ 시세창 하단 검색 설정 정리",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/search_chips.webp",
+        "desc": "켬/끔·3단계 칩(베이스·희귀도·타락·분열·복제)과 숫자 칸 칩(레벨·퀄리티·빈 접두어)을 줄로 나눴어요.\n검색에 걸리지 않은 상태(`모두`·꺼짐)는 점선 테두리로 구분하고, `상세 조건`은 오른쪽 끝 글자 링크로 옮겼어요."
+      },
+      {
+        "badge": "🔧 버그 수정",
+        "image_url": "",
+        "desc": "- 거래소에 문장이 똑같은 옵션이 2개씩 있어 한쪽만 검색해 매물이 0건으로 나오던 문제 (예: 스킬의 마나 점유 효율)\n- [다시 검색] 뒤 고유 아이템의 7일 시세 변동(▲%)과 그래프가 사라지던 문제\n- 마법사의 피처럼 같은 이름이 여러 줄인 고유 아이템에서 시세 변동이 비어 보이던 문제\n- 앗조아틀의 연대기를 처음 조회하면 빈 교환소 카드가 나오고 [다시 검색]을 눌러야 하던 문제\n- 연대기의 지역 레벨이 검색에 반영되지 않던 문제 (방 선택에서 뺀 방도 검색에서 빠지게 정리)\n- 점술 카드 창이 좁고 작게 나오던 문제, 해외 시세와 차이 글자가 겹치던 문제\n- 옵션 조건 윗줄에서 `모두 일치` 칩과 `전체 해제`·`-10%` 버튼이 겹치던 문제\n- 가격 줄이 좁아질 때 `거래소` 글자가 세로로 쪼개지던 문제"
+      }
+    ]
+  },
+  {
     "version": "2.3.134",
     "date": "2026-11-23",
     "title": "신고 방식 변경 & 앗조아틀 연대기 수정",
