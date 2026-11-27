@@ -2,8 +2,13 @@
   {
     "version": "2.3.139",
     "date": "2026-11-26",
-    "title": "테마 미세 조절 · 하단 아트워크 정리 · 속도 개선",
+    "title": "악몽 지도 수정 · 테마 미세 조절 · 하단 아트워크 정리 · 속도 개선",
     "highlights": [
+      {
+        "badge": "🗺️ 악몽 지도 상단 옵션 인식 수정",
+        "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/nightmare_map.webp",
+        "desc": "악몽 지도에서 `아틀라스 획득물`, `아이템 희귀도`, `몬스터 무리 규모`, `지도에서 발견하는 ~ 더 많음` 옵션이 시세 창에 나타나지 않던 문제를 고쳤어요.\n`점술 카드 더 많음`도 인식하고, 이 옵션들은 기본적으로 체크가 해제된 상태로 보여요. 필요한 것만 체크해서 검색하세요."
+      },
       {
         "badge": "🎨 테마 미세 조절 추가",
         "image_url": "https://raw.githubusercontent.com/Sulhwa99/poe-price-overlay-releases/main/dist/assets/patch_notes/theme_tuning.webp",
